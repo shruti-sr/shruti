@@ -105,10 +105,16 @@
 
 <distributionManagement>
     <repository>
-        <id>java-maven-junit</id>
-        <name>java-maven-junit</name>
-        <url>http://localhost:8081/repository/java-maven-junit/</url>
+        <id>deployment</id>
+        <name>Nexus_Release</name>
+        <url>http://54.255.200.65:8081/nexus/content/repositories/deployment/</url>
     </repository>
+         
+    <snapshotRepository>
+        <id>snapshot</id>
+        <name>Nexus_Snapshot</name>
+        <url>http://54.255.200.65:8081/nexus/content/repositories/snapshot</url>     
+    </snapshotRepository>         
 </distributionManagement> 
 
 </project>
